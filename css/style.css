@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/imagens/Cenário.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-shadow: none;
+}
+.nav{
+    background-color: black;
+    height: 100px;
+    width: auto;
+}
+
+#logo{
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.container{
+    flex-direction: row;
+    
+}
+
+#Arthur{
+    background-color: hsla(0,0%,7%,.65);
+    width: 350px;
+    height: 460px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px;
+    margin-left: 60px;
+    padding: 5px;
+    border: 4px solid transparent;
+    transition: border-color 0.3 ease;
+    display: inline-block;
+    border-radius: 10px;
+}
+#Arthur:hover{
+    border: 5px solid #fff;
+}
+#John{
+    background-color: hsla(0,0%,7%,.65);
+    width: 350px;
+    height: 460px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px;
+    padding: 5px;
+    border: 4px solid transparent;
+    transition: border-color 0.3 ease;   
+    display: inline-block;
+    border-radius: 10px;
+}
+#John:hover{
+    border: 5px solid #fff;
+}
+#Dutch{
+    background-color: hsla(0,0%,7%,.65);
+    width: 350px;
+    height: 460px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px;
+    padding: 5px;
+    border: 4px solid transparent;
+    transition: border-color 0.3 ease;   
+    display: inline-block;
+    border-radius: 10px;
+}
+#Dutch:hover{
+    border: 5px solid #fff;
+}
+#Abigail{
+    background-color: hsla(0,0%,7%,.65);
+    width: 350px;
+    height: 460px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px;
+    padding: 5px;
+    border: 4px solid transparent;
+    transition: border-color 0.3 ease;   
+    display: inline-block;
+    border-radius: 10px;
+}
+#Abigail:hover{
+    border: 5px solid #fff;
+}
+#Charles{
+    background-color: hsla(0,0%,7%,.65);
+    width: 350px;
+    height: 460px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px;
+    padding: 5px;
+    border: 4px solid transparent;
+    transition: border-color 0.3 ease;   
+    display: inline-block;
+    border-radius: 10px;
+}
+#Charles:hover{
+    border: 5px solid #fff;
+}
+
+.history__gallery{
+    background-color: hsla(0,0%,7%,.65);
+    border-radius: 10px;
+    height: auto;
+    width: 85%;
+    margin-left: 150px;
+    margin-top: 25px;
+
+}
+#titlestory{
+    text-align: center;
+    font-family: 'Chinese Rocks';
+    font-size: 50px;
+    color: white; 
+    display: inline;
+    
+    
+}
+p{
+    font-family: sans-serif;
+    font-size: x-large;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(166, 104, 54);
+    margin: 10px;
+}
+
+.art1{
+    display: inline-block;
+}
+#phrasearthur{
+    font-family: 'Chinese Rocks';
+    font-size: 50px;
+    color: white; 
+    display: inline;
+    margin-left: 6rem;
+}
+#phrasejohn{
+    font-family: 'Chinese Rocks';
+    font-size: 50px;
+    color: white; 
+    display: inline;
+    margin-left: 5rem;
+}  
+#phrasedutch{
+    font-family: 'Chinese Rocks';
+    font-size: 50px;
+    color: white; 
+    display: inline;
+    margin-left: 16.25px;
+     
+} 
+#phraseabigail{
+    font-family: 'Chinese Rocks';
+    font-size: 40px;
+    color: white; 
+    display: inline;
+    margin-left: 0.31rem;
+
+}
+#phrasecharles{
+    font-family: 'Chinese Rocks';
+    font-size: 35px;
+    color: white; 
+    display: inline;
+    margin-left: 0.31rem;
+   
+}
+#titlecharacters{
+    text-align: center;
+    font-family: 'Chinese Rocks';
+    font-size: 50px;
+    color: white;    
+}
+h3{
+    font-family: 'Chinese Rocks';
+    font-size: 50px;
+    display: inline;
+    margin-left: 10px;
+}
+#descarthur{
+    background-color: hsla(0,0%,7%,.65);
+    border-radius: 10px;
+    height: auto;
+    width: 85%;
+    margin-left: 150px;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 5px;
+}
+.carimg{
+    width: 48%;
+    display: inline-block;
+    border-radius: 10px;
+    border: #e03232 solid 4px;
+    margin: 12px;
+}
+#descjohn{
+    background-color: hsla(0,0%,7%,.65);
+    border-radius: 10px;
+    height: auto;
+    width: 85%;
+    margin-left: 150px;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 5px;
+}
+#descdutch{
+    background-color: hsla(0,0%,7%,.65);
+    border-radius: 10px;
+    height: auto;
+    width: 85%;
+    margin-left: 150px;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 5px;
+}
+#descabigail{
+    background-color: hsla(0,0%,7%,.65);
+    border-radius: 10px;
+    height: auto;
+    width: 85%;
+    margin-left: 150px;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 5px;
+}
+#desccharles{
+    background-color: hsla(0,0%,7%,.65);
+    border-radius: 10px;
+    height: auto;
+    width: 85%;
+    margin-left: 150px;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 5px;
+}
+
+.slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery{
+    display: flexbox;
+    padding-left: 2.5rem;
+    padding-top: 1rem;
+}
+
+.imgsec{
+    height: 20rem;
+    border: solid 5px #fff; 
+}
+
+#dualwall{
+    height: 25rem;
+    border: solid 5px #fff;
+    margin-left: 10rem;
+}
+.music{
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+#musics{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+    color: #fff;
+    text-shadow: none;
+    position: relative;
+    
+}
+audio{
+    background: linear-gradient(to left, #e03232, #320404);
+    border-radius: 100px;
+    border: solid 3px #e03232;
+}
+#musics li{
+    font-family: 'Chinese Rocks', sans-serif;
+    font-size: 3rem;
+}
+#videoawards{
+    height: 45rem;
+    box-shadow: 0 0rem 2rem -.1rem #e03232;
+    border-radius: 2rem;
+    margin: 3rem;
+}
+#about__characters{
+    font-family: 'Chinese Rocks', sans-serif;
+    color: #fff;
+}
+
+footer{
+    background-color: var(--items-color);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#subfooter{
+    text-align: center;
+    display: block;
+    font-family: 'Chinese Rocks';
+}
